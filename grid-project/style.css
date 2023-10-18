@@ -13,7 +13,7 @@ body {
     padding: 150px 150px 200px 150px;
     display: grid;
     grid-template-areas: 'card1 card1 card2 card3' 'card4 card5 card5 card3';
-    gap: 0.5rem;
+    gap: 1.5rem;
     height: 100%;
     background: rgb(240, 237, 243);
 }
@@ -103,13 +103,11 @@ body {
 }
 
 .card-body .card-desscription {
-    /* margin: 0; */
     color: white;
     font-size: 0.7rem;
     font-weight: 0;
     opacity: 0.6;
     font-style: normal;
-    /* line-height: 1.2; */
 }
 
 @media (min-width: 769px) and (max-width: 1020px) {
